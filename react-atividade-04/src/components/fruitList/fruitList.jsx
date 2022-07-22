@@ -40,7 +40,7 @@ const FruitList = ()=>{
                 )
             }
 
-            <span>{sumTotal}</span>
+            {/* <span>{sumTotal}</span> */}
             <button onClick={filterRedFruits}>Filtrar vermelhas</button>
             <button onClick={allFruits}>Todas</button>
         </div>
